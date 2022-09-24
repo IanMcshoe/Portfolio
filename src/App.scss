@@ -25,20 +25,23 @@ html {
 }
 
 .header-icon {
-	height: 150px;
-	width: 150px;
+	height: 250px;
+	width: 250px;
 }
 
 header {
 	position: relative;
 	height: 520px;
 	min-height: 450px;
+	background-image: url("http://media.fotoscapes.com/imgs/Gv/fz/ly/Sn/GvfzlySn-ZofoqRdtg.jpg");
+	color: black;
+	font-size: 20px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #bf665e;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -49,6 +52,7 @@ header {
 
 header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
@@ -86,7 +90,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #03a696 ;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -95,19 +99,20 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: 
+	black;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border:  solid #d7caaa;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
-	height: 25px;
+	background-color: #d7caaa ;
+	
 }
 
 .slider-iconfiy {
@@ -120,7 +125,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #03a696;
 	overflow: hidden;
 }
 
@@ -188,7 +193,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: #f28157;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -231,7 +236,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #bf665e;
 }
 
 .experience-icon {
@@ -245,7 +250,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #03a696 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,7 +261,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #03a696 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -301,7 +306,7 @@ header h1 {
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-	color: #313131;
+	color: #03a696;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -342,10 +347,12 @@ header h1 {
 
 .awssld__next {
 	outline: none !important;
+	background-color: #313131;
 }
 
 .awssld__prev {
 	outline: none !important;
+	background-color: #313131;
 }
 
 .loader-bar-color {
@@ -353,7 +360,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #03a696;
 	padding-bottom: 5%;
 }
 
@@ -368,7 +375,7 @@ header h1 {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	opacity: 0;
-	background-color: rgba(51, 51, 51, 0.9);
+	background-color: #03a696;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -389,9 +396,10 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #f28157;
 	min-height: 200px;
 	width: 100%;
+	color:#313131;
 	overflow: hidden;
 	padding-bottom: 10%;
 }
@@ -407,8 +415,8 @@ header h1 {
 }
 
 .skill-icon {
-	font-size: 180%;
-	color: white;
+	font-size: 250%;
+	color: #313131;
 	text-align: center;
 	position: relative;
 }

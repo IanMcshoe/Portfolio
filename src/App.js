@@ -19,8 +19,6 @@ class App extends Component {
   }
 
   applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
@@ -98,8 +96,7 @@ class App extends Component {
           </Route>
         </Routes>
         <Footer 
-          sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
+          sharedBasicInfo={this.state.sharedData.basic_info} 
         />  
       </Router>
     );
